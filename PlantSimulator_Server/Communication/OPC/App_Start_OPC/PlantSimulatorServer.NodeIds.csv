@@ -1,0 +1,12 @@
+ConveyorMotorType,15071,ObjectType
+GenericActuatorType,15009,ObjectType
+GenericMotorType,15022,ObjectType
+GenericSensorType,15001,ObjectType
+LevelIndicatorType,15029,ObjectType
+LoadcellTransmitterType,15037,ObjectType
+MixerMotorType,15064,ObjectType
+PackagingUnitType,15100,ObjectType
+PlantSimulatorServer1,15143,Object
+PlantSimulatorServer1Type,15109,ObjectType
+PlantSimulatorServerType,15078,ObjectType
+ValveType,15051,ObjectType

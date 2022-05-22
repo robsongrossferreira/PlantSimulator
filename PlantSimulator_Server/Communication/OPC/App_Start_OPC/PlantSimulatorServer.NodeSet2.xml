@@ -1,0 +1,647 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<UANodeSet xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://opcfoundation.org/UA/2011/03/UANodeSet.xsd">
+  <NamespaceUris>
+    <Uri>http://opcfoundation.org/PlantSimulatorServer</Uri>
+  </NamespaceUris>
+  <Models>
+    <Model ModelUri="http://opcfoundation.org/PlantSimulatorServer">
+      <RequiredModel ModelUri="http://opcfoundation.org/UA/" Version="1.04.7" PublicationDate="2020-04-14T00:00:00Z" />
+    </Model>
+  </Models>
+  <Aliases>
+    <Alias Alias="Boolean">i=1</Alias>
+    <Alias Alias="SByte">i=2</Alias>
+    <Alias Alias="Byte">i=3</Alias>
+    <Alias Alias="Int16">i=4</Alias>
+    <Alias Alias="UInt16">i=5</Alias>
+    <Alias Alias="Int32">i=6</Alias>
+    <Alias Alias="UInt32">i=7</Alias>
+    <Alias Alias="Int64">i=8</Alias>
+    <Alias Alias="UInt64">i=9</Alias>
+    <Alias Alias="Float">i=10</Alias>
+    <Alias Alias="Double">i=11</Alias>
+    <Alias Alias="DateTime">i=13</Alias>
+    <Alias Alias="String">i=12</Alias>
+    <Alias Alias="ByteString">i=15</Alias>
+    <Alias Alias="Guid">i=14</Alias>
+    <Alias Alias="XmlElement">i=16</Alias>
+    <Alias Alias="NodeId">i=17</Alias>
+    <Alias Alias="ExpandedNodeId">i=18</Alias>
+    <Alias Alias="QualifiedName">i=20</Alias>
+    <Alias Alias="LocalizedText">i=21</Alias>
+    <Alias Alias="StatusCode">i=19</Alias>
+    <Alias Alias="Structure">i=22</Alias>
+    <Alias Alias="Number">i=26</Alias>
+    <Alias Alias="Integer">i=27</Alias>
+    <Alias Alias="UInteger">i=28</Alias>
+    <Alias Alias="HasComponent">i=47</Alias>
+    <Alias Alias="HasProperty">i=46</Alias>
+    <Alias Alias="Organizes">i=35</Alias>
+    <Alias Alias="HasEventSource">i=36</Alias>
+    <Alias Alias="HasNotifier">i=48</Alias>
+    <Alias Alias="HasSubtype">i=45</Alias>
+    <Alias Alias="HasTypeDefinition">i=40</Alias>
+    <Alias Alias="HasModellingRule">i=37</Alias>
+    <Alias Alias="HasEncoding">i=38</Alias>
+    <Alias Alias="HasDescription">i=39</Alias>
+  </Aliases>
+  <UAObjectType NodeId="ns=1;i=15001" BrowseName="1:GenericSensorType">
+    <DisplayName>GenericSensorType</DisplayName>
+    <Description>A generic sensor that read a process value.</Description>
+    <References>
+      <Reference ReferenceType="HasComponent">ns=1;i=15002</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=15008</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=58</Reference>
+    </References>
+  </UAObjectType>
+  <UAVariable NodeId="ns=1;i=15002" BrowseName="1:Output" ParentNodeId="ns=1;i=15001" DataType="Double">
+    <DisplayName>Output</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15006</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=2368</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15001</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15006" BrowseName="EURange" ParentNodeId="ns=1;i=15002" DataType="i=884">
+    <DisplayName>EURange</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15002</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15008" BrowseName="1:Units" ParentNodeId="ns=1;i=15001" DataType="String" AccessLevel="3">
+    <DisplayName>Units</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15001</Reference>
+    </References>
+  </UAVariable>
+  <UAObjectType NodeId="ns=1;i=15009" BrowseName="1:GenericActuatorType">
+    <DisplayName>GenericActuatorType</DisplayName>
+    <Description>Represents a piece of equipment that causes some action to occur.</Description>
+    <References>
+      <Reference ReferenceType="HasComponent">ns=1;i=15010</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15016</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=58</Reference>
+    </References>
+  </UAObjectType>
+  <UAVariable NodeId="ns=1;i=15010" BrowseName="1:Input" ParentNodeId="ns=1;i=15009" DataType="Double" AccessLevel="3">
+    <DisplayName>Input</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15014</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=2368</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15009</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15014" BrowseName="EURange" ParentNodeId="ns=1;i=15010" DataType="i=884">
+    <DisplayName>EURange</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15010</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15016" BrowseName="1:Output" ParentNodeId="ns=1;i=15009" DataType="Double" AccessLevel="3">
+    <DisplayName>Output</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15020</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=2368</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15009</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15020" BrowseName="EURange" ParentNodeId="ns=1;i=15016" DataType="i=884">
+    <DisplayName>EURange</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15016</Reference>
+    </References>
+  </UAVariable>
+  <UAObjectType NodeId="ns=1;i=15022" BrowseName="1:GenericMotorType">
+    <DisplayName>GenericMotorType</DisplayName>
+    <Description>A generic motor.</Description>
+    <References>
+      <Reference ReferenceType="HasComponent">ns=1;i=15023</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=58</Reference>
+    </References>
+  </UAObjectType>
+  <UAVariable NodeId="ns=1;i=15023" BrowseName="1:Speed" ParentNodeId="ns=1;i=15022" DataType="Double" AccessLevel="3">
+    <DisplayName>Speed</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15027</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=2368</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15022</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15027" BrowseName="EURange" ParentNodeId="ns=1;i=15023" DataType="i=884">
+    <DisplayName>EURange</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15023</Reference>
+    </References>
+  </UAVariable>
+  <UAObjectType NodeId="ns=1;i=15029" BrowseName="1:LevelIndicatorType">
+    <DisplayName>LevelIndicatorType</DisplayName>
+    <Description>A sensor that reports the level of material in a container.</Description>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">ns=1;i=15001</Reference>
+    </References>
+  </UAObjectType>
+  <UAObjectType NodeId="ns=1;i=15037" BrowseName="1:LoadcellTransmitterType">
+    <DisplayName>LoadcellTransmitterType</DisplayName>
+    <Description>A sensor that reports the weight of an object.</Description>
+    <References>
+      <Reference ReferenceType="HasComponent">ns=1;i=15045</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="false">ns=1;i=15001</Reference>
+    </References>
+  </UAObjectType>
+  <UAVariable NodeId="ns=1;i=15045" BrowseName="1:ExcitationVoltage" ParentNodeId="ns=1;i=15037" DataType="Double" AccessLevel="3">
+    <DisplayName>ExcitationVoltage</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15049</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=2368</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15037</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15049" BrowseName="EURange" ParentNodeId="ns=1;i=15045" DataType="i=884">
+    <DisplayName>EURange</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15045</Reference>
+    </References>
+  </UAVariable>
+  <UAObjectType NodeId="ns=1;i=15051" BrowseName="1:ValveType">
+    <DisplayName>ValveType</DisplayName>
+    <Description>An actuator that controls the flow of material.</Description>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">ns=1;i=15009</Reference>
+    </References>
+  </UAObjectType>
+  <UAObjectType NodeId="ns=1;i=15064" BrowseName="1:MixerMotorType">
+    <DisplayName>MixerMotorType</DisplayName>
+    <Description>An motor for mixing materials.</Description>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">ns=1;i=15022</Reference>
+    </References>
+  </UAObjectType>
+  <UAObjectType NodeId="ns=1;i=15071" BrowseName="1:ConveyorMotorType">
+    <DisplayName>ConveyorMotorType</DisplayName>
+    <Description>An motor for moving finished product.</Description>
+    <References>
+      <Reference ReferenceType="HasSubtype" IsForward="false">ns=1;i=15022</Reference>
+    </References>
+  </UAObjectType>
+  <UAObjectType NodeId="ns=1;i=15078" BrowseName="1:PlantSimulatorServerType">
+    <DisplayName>PlantSimulatorServerType</DisplayName>
+    <References>
+      <Reference ReferenceType="HasComponent">ns=1;i=15079</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15087</Reference>
+      <Reference ReferenceType="HasNotifier">ns=1;i=15079</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=61</Reference>
+    </References>
+  </UAObjectType>
+  <UAObject NodeId="ns=1;i=15079" BrowseName="1:OUTPUT" SymbolicName="PlantLevelIndicator" ParentNodeId="ns=1;i=15078" EventNotifier="1">
+    <DisplayName>OUTPUT</DisplayName>
+    <References>
+      <Reference ReferenceType="HasComponent">ns=1;i=15080</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=15086</Reference>
+      <Reference ReferenceType="HasTypeDefinition">ns=1;i=15029</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15078</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=1;i=15080" BrowseName="1:Output" ParentNodeId="ns=1;i=15079" DataType="Double">
+    <DisplayName>Output</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15084</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=2368</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15079</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15084" BrowseName="EURange" ParentNodeId="ns=1;i=15080" DataType="i=884">
+    <DisplayName>EURange</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15080</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15086" BrowseName="1:Units" ParentNodeId="ns=1;i=15079" DataType="String" AccessLevel="3">
+    <DisplayName>Units</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15079</Reference>
+    </References>
+  </UAVariable>
+  <UAObject NodeId="ns=1;i=15087" BrowseName="1:INPUT" SymbolicName="PlantDischargeValve" ParentNodeId="ns=1;i=15078" EventNotifier="1">
+    <DisplayName>INPUT</DisplayName>
+    <References>
+      <Reference ReferenceType="HasComponent">ns=1;i=15088</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15094</Reference>
+      <Reference ReferenceType="HasTypeDefinition">ns=1;i=15051</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15078</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=1;i=15088" BrowseName="1:Input" ParentNodeId="ns=1;i=15087" DataType="Double" AccessLevel="3">
+    <DisplayName>Input</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15092</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=2368</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15087</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15092" BrowseName="EURange" ParentNodeId="ns=1;i=15088" DataType="i=884">
+    <DisplayName>EURange</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15088</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15094" BrowseName="1:Output" ParentNodeId="ns=1;i=15087" DataType="Double" AccessLevel="3">
+    <DisplayName>Output</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15098</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=2368</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15087</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15098" BrowseName="EURange" ParentNodeId="ns=1;i=15094" DataType="i=884">
+    <DisplayName>EURange</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15094</Reference>
+    </References>
+  </UAVariable>
+  <UAObjectType NodeId="ns=1;i=15100" BrowseName="1:PackagingUnitType">
+    <DisplayName>PackagingUnitType</DisplayName>
+    <References>
+      <Reference ReferenceType="HasComponent">ns=1;i=15101</Reference>
+      <Reference ReferenceType="HasNotifier">ns=1;i=15101</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=61</Reference>
+    </References>
+  </UAObjectType>
+  <UAObject NodeId="ns=1;i=15101" BrowseName="1:LI004" SymbolicName="PackagingUnitLevelIndicator" ParentNodeId="ns=1;i=15100" EventNotifier="1">
+    <DisplayName>LI004</DisplayName>
+    <References>
+      <Reference ReferenceType="HasComponent">ns=1;i=15102</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=15108</Reference>
+      <Reference ReferenceType="HasTypeDefinition">ns=1;i=15029</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15100</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=1;i=15102" BrowseName="1:Output" ParentNodeId="ns=1;i=15101" DataType="Double">
+    <DisplayName>Output</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15106</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=2368</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15101</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15106" BrowseName="EURange" ParentNodeId="ns=1;i=15102" DataType="i=884">
+    <DisplayName>EURange</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15102</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15108" BrowseName="1:Units" ParentNodeId="ns=1;i=15101" DataType="String" AccessLevel="3">
+    <DisplayName>Units</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15101</Reference>
+    </References>
+  </UAVariable>
+  <UAObjectType NodeId="ns=1;i=15109" BrowseName="1:PlantSimulatorServer1Type">
+    <DisplayName>PlantSimulatorServer1Type</DisplayName>
+    <Description>A production Plant Simulator Server.</Description>
+    <References>
+      <Reference ReferenceType="HasComponent">ns=1;i=15110</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15132</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15141</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15142</Reference>
+      <Reference ReferenceType="HasNotifier">ns=1;i=15110</Reference>
+      <Reference ReferenceType="HasNotifier">ns=1;i=15132</Reference>
+      <Reference ReferenceType="HasSubtype" IsForward="false">i=58</Reference>
+    </References>
+  </UAObjectType>
+  <UAObject NodeId="ns=1;i=15110" BrowseName="1:PlantSimulatorServer" ParentNodeId="ns=1;i=15109" EventNotifier="1">
+    <DisplayName>PlantSimulatorServer</DisplayName>
+    <References>
+      <Reference ReferenceType="HasComponent">ns=1;i=15111</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15119</Reference>
+      <Reference ReferenceType="HasNotifier">ns=1;i=15111</Reference>
+      <Reference ReferenceType="HasTypeDefinition">ns=1;i=15078</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15109</Reference>
+    </References>
+  </UAObject>
+  <UAObject NodeId="ns=1;i=15111" BrowseName="1:OUTPUT" SymbolicName="PlantLevelIndicator" ParentNodeId="ns=1;i=15110" EventNotifier="1">
+    <DisplayName>OUTPUT</DisplayName>
+    <References>
+      <Reference ReferenceType="HasComponent">ns=1;i=15112</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=15118</Reference>
+      <Reference ReferenceType="HasNotifier" IsForward="false">ns=1;i=15110</Reference>
+      <Reference ReferenceType="HasTypeDefinition">ns=1;i=15029</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15110</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=1;i=15112" BrowseName="1:Output" ParentNodeId="ns=1;i=15111" DataType="Double">
+    <DisplayName>Output</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15116</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=2368</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15111</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15116" BrowseName="EURange" ParentNodeId="ns=1;i=15112" DataType="i=884">
+    <DisplayName>EURange</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15112</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15118" BrowseName="1:Units" ParentNodeId="ns=1;i=15111" DataType="String" AccessLevel="3">
+    <DisplayName>Units</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15111</Reference>
+    </References>
+  </UAVariable>
+  <UAObject NodeId="ns=1;i=15119" BrowseName="1:INPUT" SymbolicName="PlantDischargeValve" ParentNodeId="ns=1;i=15110" EventNotifier="1">
+    <DisplayName>INPUT</DisplayName>
+    <References>
+      <Reference ReferenceType="HasComponent">ns=1;i=15120</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15126</Reference>
+      <Reference ReferenceType="HasTypeDefinition">ns=1;i=15051</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15110</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=1;i=15120" BrowseName="1:Input" ParentNodeId="ns=1;i=15119" DataType="Double" AccessLevel="3">
+    <DisplayName>Input</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15124</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=2368</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15119</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15124" BrowseName="EURange" ParentNodeId="ns=1;i=15120" DataType="i=884">
+    <DisplayName>EURange</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15120</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15126" BrowseName="1:Output" ParentNodeId="ns=1;i=15119" DataType="Double" AccessLevel="3">
+    <DisplayName>Output</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15130</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=2368</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15119</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15130" BrowseName="EURange" ParentNodeId="ns=1;i=15126" DataType="i=884">
+    <DisplayName>EURange</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15126</Reference>
+    </References>
+  </UAVariable>
+  <UAObject NodeId="ns=1;i=15132" BrowseName="1:PackagingUnitX001" SymbolicName="PackagingUnit" ParentNodeId="ns=1;i=15109" EventNotifier="1">
+    <DisplayName>PackagingUnitX001</DisplayName>
+    <References>
+      <Reference ReferenceType="HasComponent">ns=1;i=15133</Reference>
+      <Reference ReferenceType="HasNotifier">ns=1;i=15133</Reference>
+      <Reference ReferenceType="HasTypeDefinition">ns=1;i=15100</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15109</Reference>
+    </References>
+  </UAObject>
+  <UAObject NodeId="ns=1;i=15133" BrowseName="1:LI004" SymbolicName="PackagingUnitLevelIndicator" ParentNodeId="ns=1;i=15132" EventNotifier="1">
+    <DisplayName>LI004</DisplayName>
+    <References>
+      <Reference ReferenceType="HasComponent">ns=1;i=15134</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=15140</Reference>
+      <Reference ReferenceType="HasNotifier" IsForward="false">ns=1;i=15132</Reference>
+      <Reference ReferenceType="HasTypeDefinition">ns=1;i=15029</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15132</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=1;i=15134" BrowseName="1:Output" ParentNodeId="ns=1;i=15133" DataType="Double">
+    <DisplayName>Output</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15138</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=2368</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15133</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15138" BrowseName="EURange" ParentNodeId="ns=1;i=15134" DataType="i=884">
+    <DisplayName>EURange</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15134</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15140" BrowseName="1:Units" ParentNodeId="ns=1;i=15133" DataType="String" AccessLevel="3">
+    <DisplayName>Units</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15133</Reference>
+    </References>
+  </UAVariable>
+  <UAMethod NodeId="ns=1;i=15141" BrowseName="1:StartProcess" ParentNodeId="ns=1;i=15109">
+    <DisplayName>StartProcess</DisplayName>
+    <References>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15109</Reference>
+    </References>
+  </UAMethod>
+  <UAMethod NodeId="ns=1;i=15142" BrowseName="1:StopProcess" ParentNodeId="ns=1;i=15109">
+    <DisplayName>StopProcess</DisplayName>
+    <References>
+      <Reference ReferenceType="HasModellingRule">i=78</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15109</Reference>
+    </References>
+  </UAMethod>
+  <UAObject NodeId="ns=1;i=15143" BrowseName="1:Plant Simulator Server #1" SymbolicName="PlantSimulatorServer1" EventNotifier="1">
+    <DisplayName>Plant Simulator Server #1</DisplayName>
+    <References>
+      <Reference ReferenceType="HasComponent">ns=1;i=15144</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15166</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15175</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15176</Reference>
+      <Reference ReferenceType="HasNotifier">ns=1;i=15144</Reference>
+      <Reference ReferenceType="HasNotifier">ns=1;i=15166</Reference>
+      <Reference ReferenceType="Organizes" IsForward="false">i=85</Reference>
+      <Reference ReferenceType="HasTypeDefinition">ns=1;i=15109</Reference>
+    </References>
+  </UAObject>
+  <UAObject NodeId="ns=1;i=15144" BrowseName="1:PlantSimulatorServer" ParentNodeId="ns=1;i=15143" EventNotifier="1">
+    <DisplayName>PlantSimulatorServer</DisplayName>
+    <References>
+      <Reference ReferenceType="HasComponent">ns=1;i=15145</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15153</Reference>
+      <Reference ReferenceType="HasNotifier" IsForward="false">ns=1;i=15143</Reference>
+      <Reference ReferenceType="HasNotifier">ns=1;i=15145</Reference>
+      <Reference ReferenceType="HasTypeDefinition">ns=1;i=15078</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15143</Reference>
+    </References>
+  </UAObject>
+  <UAObject NodeId="ns=1;i=15145" BrowseName="1:OUTPUT" SymbolicName="PlantLevelIndicator" ParentNodeId="ns=1;i=15144" EventNotifier="1">
+    <DisplayName>OUTPUT</DisplayName>
+    <References>
+      <Reference ReferenceType="HasComponent">ns=1;i=15146</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=15152</Reference>
+      <Reference ReferenceType="HasNotifier" IsForward="false">ns=1;i=15144</Reference>
+      <Reference ReferenceType="HasTypeDefinition">ns=1;i=15029</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15144</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=1;i=15146" BrowseName="1:Output" ParentNodeId="ns=1;i=15145" DataType="Double">
+    <DisplayName>Output</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15150</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=2368</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15145</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15150" BrowseName="EURange" ParentNodeId="ns=1;i=15146" DataType="i=884">
+    <DisplayName>EURange</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15146</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15152" BrowseName="1:Units" ParentNodeId="ns=1;i=15145" DataType="String" AccessLevel="3">
+    <DisplayName>Units</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15145</Reference>
+    </References>
+  </UAVariable>
+  <UAObject NodeId="ns=1;i=15153" BrowseName="1:INPUT" SymbolicName="PlantDischargeValve" ParentNodeId="ns=1;i=15144" EventNotifier="1">
+    <DisplayName>INPUT</DisplayName>
+    <References>
+      <Reference ReferenceType="HasComponent">ns=1;i=15154</Reference>
+      <Reference ReferenceType="HasComponent">ns=1;i=15160</Reference>
+      <Reference ReferenceType="HasTypeDefinition">ns=1;i=15051</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15144</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=1;i=15154" BrowseName="1:Input" ParentNodeId="ns=1;i=15153" DataType="Double" AccessLevel="3">
+    <DisplayName>Input</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15158</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=2368</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15153</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15158" BrowseName="EURange" ParentNodeId="ns=1;i=15154" DataType="i=884">
+    <DisplayName>EURange</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15154</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15160" BrowseName="1:Output" ParentNodeId="ns=1;i=15153" DataType="Double" AccessLevel="3">
+    <DisplayName>Output</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15164</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=2368</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15153</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15164" BrowseName="EURange" ParentNodeId="ns=1;i=15160" DataType="i=884">
+    <DisplayName>EURange</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15160</Reference>
+    </References>
+  </UAVariable>
+  <UAObject NodeId="ns=1;i=15166" BrowseName="1:PackagingUnitX001" SymbolicName="PackagingUnit" ParentNodeId="ns=1;i=15143" EventNotifier="1">
+    <DisplayName>PackagingUnitX001</DisplayName>
+    <References>
+      <Reference ReferenceType="HasComponent">ns=1;i=15167</Reference>
+      <Reference ReferenceType="HasNotifier" IsForward="false">ns=1;i=15143</Reference>
+      <Reference ReferenceType="HasNotifier">ns=1;i=15167</Reference>
+      <Reference ReferenceType="HasTypeDefinition">ns=1;i=15100</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15143</Reference>
+    </References>
+  </UAObject>
+  <UAObject NodeId="ns=1;i=15167" BrowseName="1:LI004" SymbolicName="PackagingUnitLevelIndicator" ParentNodeId="ns=1;i=15166" EventNotifier="1">
+    <DisplayName>LI004</DisplayName>
+    <References>
+      <Reference ReferenceType="HasComponent">ns=1;i=15168</Reference>
+      <Reference ReferenceType="HasProperty">ns=1;i=15174</Reference>
+      <Reference ReferenceType="HasNotifier" IsForward="false">ns=1;i=15166</Reference>
+      <Reference ReferenceType="HasTypeDefinition">ns=1;i=15029</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15166</Reference>
+    </References>
+  </UAObject>
+  <UAVariable NodeId="ns=1;i=15168" BrowseName="1:Output" ParentNodeId="ns=1;i=15167" DataType="Double">
+    <DisplayName>Output</DisplayName>
+    <References>
+      <Reference ReferenceType="HasProperty">ns=1;i=15172</Reference>
+      <Reference ReferenceType="HasTypeDefinition">i=2368</Reference>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15167</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15172" BrowseName="EURange" ParentNodeId="ns=1;i=15168" DataType="i=884">
+    <DisplayName>EURange</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15168</Reference>
+    </References>
+  </UAVariable>
+  <UAVariable NodeId="ns=1;i=15174" BrowseName="1:Units" ParentNodeId="ns=1;i=15167" DataType="String" AccessLevel="3">
+    <DisplayName>Units</DisplayName>
+    <References>
+      <Reference ReferenceType="HasTypeDefinition">i=68</Reference>
+      <Reference ReferenceType="HasProperty" IsForward="false">ns=1;i=15167</Reference>
+    </References>
+  </UAVariable>
+  <UAMethod NodeId="ns=1;i=15175" BrowseName="1:StartProcess" ParentNodeId="ns=1;i=15143" MethodDeclarationId="ns=1;i=15141">
+    <DisplayName>StartProcess</DisplayName>
+    <References>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15143</Reference>
+    </References>
+  </UAMethod>
+  <UAMethod NodeId="ns=1;i=15176" BrowseName="1:StopProcess" ParentNodeId="ns=1;i=15143" MethodDeclarationId="ns=1;i=15142">
+    <DisplayName>StopProcess</DisplayName>
+    <References>
+      <Reference ReferenceType="HasComponent" IsForward="false">ns=1;i=15143</Reference>
+    </References>
+  </UAMethod>
+</UANodeSet>
