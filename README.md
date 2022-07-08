@@ -53,16 +53,16 @@ Nícolas Kamke Schimidt
 - Protocolo Protocolo Modbus TCP (Planta - Cliente)
 
 ## Novo Layout server
-![Novo Layout Server](https://github.com/robsongrossferreira/PlantSimulator/assets/NovoLayoutServer.jpeg)
+![Novo Layout Server](https://github.com/robsongrossferreira/PlantSimulator/blob/master/assets/NovoLayoutServer.jpeg)
 
 ## Novo Layout client
-![Novo Layout Client](https://github.com/robsongrossferreira/PlantSimulator/blob/main/assets/NovoLayoutClient.jpg)
+![Novo Layout Client](https://github.com/robsongrossferreira/PlantSimulator/blob/master/assets/NovoLayoutClient.jpg)
 
 ## Fluxo De Dados - Opção 1
-![Modelo Conceitual](https://github.com/robsongrossferreira/PlantSimulator/blob/main/assets/FluxoDados1.jpg)
+![Fluxo Dados 1](https://github.com/robsongrossferreira/PlantSimulator/blob/master/assets/FluxoDados1.jpg)
 
 ## Fluxo De Dados - Opção 2
-![Modelo Conceitual](https://github.com/robsongrossferreira/PlantSimulator/blob/main/assets/FluxoDados2.jpg)
+![Fluxo Dados 2](https://github.com/robsongrossferreira/PlantSimulator/blob/master/assets/FluxoDados2.jpg)
 
 # Autores Da Atualização (OPC UA + ModBus TCP)
 
