@@ -224,6 +224,13 @@ namespace PlantSimulator_Server
         {
             if (btnStartStop.Text == "Start")
             {
+                if (MonitoraConexao.selectCommunication == "opc")
+                {
+                    PlantSimulatorServer.PlantSimulatorNodeManager.m_Plant1.PlantSimulatorServerS.PlantDischargeValve.Input.Value = 0.0;
+                    PlantSimulatorServer.PlantSimulatorNodeManager.m_Plant1.PlantSimulatorServerS.PlantLevelIndicator.Output.Value = 0.0;
+                    Sistema.entrada = 0.0;
+                    Sistema.saida = 0.0;
+                }
                 btnStartStop.Text = "Stop";
                 controlPlantLoop = true;
                 tokenSource = new CancellationTokenSource();
@@ -246,13 +253,16 @@ namespace PlantSimulator_Server
         {
             while (controlPlantLoop)
             {
-                var durationTicks = Math.Round(Sistema.discretizationTime * Stopwatch.Frequency);
-                var sw = Stopwatch.StartNew();
+                //if (FormOPC.HabilityModBus == false)
+                //{
+                    var durationTicks = Math.Round(Sistema.discretizationTime * Stopwatch.Frequency);
+                    var sw = Stopwatch.StartNew();
 
-                while (sw.ElapsedTicks < durationTicks)
-                {
+                    while (sw.ElapsedTicks < durationTicks)
+                    {
 
-                }
+                    }
+                //}
                 PlantLoop();
             }
         }
@@ -261,6 +271,10 @@ namespace PlantSimulator_Server
         {
             if (MonitoraConexao.selectCommunication == "opc")
             {
+                //PlantSimulatorServer.Codesys_NetVars.NetRead();
+                if (FormOPC.HabilityModBus == true) { 
+                    PlantSimulatorServer.ModbusTcp.read();
+                }
                 Sistema.entrada = PlantSimulatorServer.PlantSimulatorNodeManager.m_Plant1.PlantSimulatorServerS.PlantDischargeValve.Input.Value;
                 MonitoraConexao.ReceiveFlow();
             }
@@ -270,13 +284,14 @@ namespace PlantSimulator_Server
             if (MonitoraConexao.selectCommunication == "opc")
             {
                 PlantSimulatorServer.PlantSimulatorNodeManager.m_Plant1.PlantSimulatorServerS.PlantLevelIndicator.Output.Value = Sistema.saidaTemp;
+                //PlantSimulatorServer.Codesys_NetVars.NetWrite();
+                if (FormOPC.HabilityModBus == true)
+                {
+                    PlantSimulatorServer.ModbusTcp.write();
+                }
                 MonitoraConexao.SendFlow();
             }
-            Sistema.saida = Sistema.saidaTemp; //comentado para testes
-
-            //Sistema.saida = 1; //escrito para testes
-
-
+            Sistema.saida = Sistema.saidaTemp;
         }
 
         

@@ -32,6 +32,23 @@ namespace PlantSimulator.Communication.OPC.Forms
                 txtStatusConnectionOpc.Text = "SERVER OFFLINE";
             }
 
+            if (chkHabilitarModBus.Checked == true)
+            {
+                HabilityModBus = true;
+                txtIPModBus.Enabled = true;
+                txtPortaModBus.Enabled = true;
+                txtRegistroInicalHolding.Enabled = true;
+                txtRegistroInicialInput.Enabled = true;
+            }
+            else
+            {
+                HabilityModBus = false;
+                txtIPModBus.Enabled = false;
+                txtPortaModBus.Enabled = false;
+                txtRegistroInicalHolding.Enabled = false;
+                txtRegistroInicialInput.Enabled = false;
+            }
+
             #endregion
         }
 
@@ -41,6 +58,19 @@ namespace PlantSimulator.Communication.OPC.Forms
         {
             try
             {
+                //HabilityModBus = true; // para testes, remover
+                if (HabilityModBus)
+                {
+                    IPModbus = txtIPModBus.Text.ToString(); // ao terminar os testes, descomentar
+                    PortModBus = int.Parse(txtPortaModBus.Text); // ao terminar os testes, descomentar
+                    HoldingResgisterInit = int.Parse(txtRegistroInicalHolding.Text); // ao terminar os testes, descomentar
+                    InputRegisterInit = int.Parse(txtRegistroInicialInput.Text); // ao terminar os testes, descomentar
+
+                    //IPModbus = "192.168.25.10"; // para testes, remover
+                    //PortModBus = 502; // para testes, remover
+                    //HoldingResgisterInit = 0; // para testes, remover
+                    //InputRegisterInit = 0; // para testes, remover
+                }
                 OPCServer.Start();
                 txtStatusConnectionOpc.Text = "SERVER ONLINE";
                 MonitoraConexao.ActiveConnection("opc");
@@ -63,7 +93,32 @@ namespace PlantSimulator.Communication.OPC.Forms
                 txtStatusConnectionOpc.Text = "ERRO DE DESATIVAÇÃO";
             }
         }
+        #endregion
 
+        #region Conexao Modbus
+        private void chkHabilitarModBus_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkHabilitarModBus.Checked == true) {
+                HabilityModBus = true;
+                txtIPModBus.Enabled = true;
+                txtPortaModBus.Enabled = true;
+                txtRegistroInicalHolding.Enabled = true;
+                txtRegistroInicialInput.Enabled = true;
+            }
+            else
+            {
+                HabilityModBus = false;
+                txtIPModBus.Enabled = false;
+                txtPortaModBus.Enabled = false;
+                txtRegistroInicalHolding.Enabled = false;
+                txtRegistroInicialInput.Enabled = false;
+            }
+        }
+        public static bool HabilityModBus = false;
+        public static string IPModbus;
+        public static int PortModBus;
+        public static int HoldingResgisterInit;
+        public static int InputRegisterInit;
         #endregion
     }
 }

@@ -1,0 +1,22 @@
+<GVL>
+  <Declarations><![CDATA[VAR_GLOBAL
+	Y: REAL:=2.45;
+END_VAR]]></Declarations>
+  <NetvarSettings Protocol="UDP">
+    <ListIdentifier>2</ListIdentifier>
+    <Pack>True</Pack>
+    <Checksum>False</Checksum>
+    <Acknowledge>False</Acknowledge>
+    <CyclicTransmission>True</CyclicTransmission>
+    <TransmissionOnChange>False</TransmissionOnChange>
+    <TransmissionOnEvent>False</TransmissionOnEvent>
+    <Interval>T#5ms</Interval>
+    <MinGap>T#20ms</MinGap>
+    <EventVariable>
+    </EventVariable>
+    <ProtocolSettings>
+      <ProtocolSetting Name="Broadcast Adr." Value="192.168.25.10" />
+      <ProtocolSetting Name="Port" Value="1213" />
+    </ProtocolSettings>
+  </NetvarSettings>
+</GVL>
