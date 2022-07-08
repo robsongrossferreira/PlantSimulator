@@ -48,6 +48,6 @@ Nícolas Kamke Schimidt
 
 # Primeira Atualização do Laboratório Simulado para Ensaios de Controle (LSEC)
 
-# Novas Funcionalidades
+## Novas Funcionalidades
 - Protocolo OPC UA (Planta - Servidor / Controlador - CLiente)
 - Protocolo Protocolo Modbus TCP (Planta - Cliente)
