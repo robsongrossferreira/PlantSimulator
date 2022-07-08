@@ -67,7 +67,7 @@ Nícolas Kamke Schimidt
 # Autores Da Atualização (OPC UA + ModBus TCP)
 
 João Paulo Ferreira
-- 
+
 
 Robson Gross Ferreira
 - www.linkedin.com/in/robson-gross-ferreira-7b2926a0
