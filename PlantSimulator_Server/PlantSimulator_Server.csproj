@@ -71,6 +71,12 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>bin\Debug\BouncyCastle.Crypto.dll</HintPath>
     </Reference>
+    <Reference Include="CodesysNetVars">
+      <HintPath>..\packages\CodesysNetVars.dll</HintPath>
+    </Reference>
+    <Reference Include="EasyModbus">
+      <HintPath>..\packages\EasyModbus.dll</HintPath>
+    </Reference>
     <Reference Include="Interop.OPCAutomation">
       <HintPath>..\..\..\..\..\..\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Interop.OPCAutomation.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
@@ -211,6 +217,9 @@
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.6.0.4\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
+    <Reference Include="NModbus4, Version=2.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\NModbus4.2.1.0\lib\net40\NModbus4.dll</HintPath>
+    </Reference>
     <Reference Include="Opc.Ua.Bindings.Https">
       <HintPath>..\packages\Opc\Opc.Ua.Bindings.Https.dll</HintPath>
     </Reference>
@@ -325,6 +334,7 @@
     <Compile Include="Communication\OPC\App_Start_OPC\PlantSimulatorServer.Classes.cs" />
     <Compile Include="Communication\OPC\App_Start_OPC\PlantSimulatorServerConfiguration.cs" />
     <Compile Include="Communication\OPC\App_Start_OPC\PlantSimulatorServerOpc.cs" />
+    <Compile Include="Communication\OPC\CodesysNetVars\CodesysNetVars.cs" />
     <Compile Include="Communication\OPC\Controllers\DadosController.cs" />
     <Compile Include="Communication\OPC\Forms\FormOPC.cs">
       <SubType>Form</SubType>
@@ -332,6 +342,7 @@
     <Compile Include="Communication\OPC\Forms\FormOPC.Designer.cs">
       <DependentUpon>FormOPC.cs</DependentUpon>
     </Compile>
+    <Compile Include="Communication\OPC\ModbusTcp\ModbusTcp.cs" />
     <Compile Include="Communication\OPC\Models\Dados.cs" />
     <Compile Include="Communication\Rest\App_Start\WebApiConfig.cs" />
     <Compile Include="Communication\Rest\App_Start\WebServer.cs" />

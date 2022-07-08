@@ -10,6 +10,8 @@ using Opc.Ua.Server;
 using System.Windows.Forms;
 using System.Reflection;
 using PlantSimulator_Server;
+using PlantSimulatorServer;
+using PlantSimulator.Communication.OPC.Forms;
 
 namespace PlantSimulatorServer
 {
@@ -49,7 +51,12 @@ namespace PlantSimulatorServer
                 // inicia o servidor.
                 application.Start(new PlantSimulatorServerOpc()).Wait();
                 StatusConnection = true;
-                return StatusConnection;
+                //PlantSimulatorServer.Codesys_NetVars.NetConnect();
+                if (FormOPC.HabilityModBus == true)
+                {
+                    PlantSimulatorServer.ModbusTcp.Bt_Connect();
+                }
+                return StatusConnection;             
             }
             catch (Exception e)
             {
@@ -70,7 +77,7 @@ namespace PlantSimulatorServer
             {  
                 if (StatusConnection == true)
                 {
-                    // para o servidor.
+                    PlantSimulatorServer.ModbusTcp.Bt_Disconnect();
                     application.Stop();
                     StatusConnection = false;
                 }

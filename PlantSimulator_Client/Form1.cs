@@ -709,7 +709,7 @@ namespace PlantSimulator_Client
                 }
                 if (selectCommunication == "opc")
                 {
-                    await OpcClient.postInput("0"); //mandar dado opc para planta aqui também
+                    await OpcClient.postInput("0.0"); //mandar dado opc para planta aqui também
                 }
             }
 
@@ -744,7 +744,7 @@ namespace PlantSimulator_Client
                     }
                     if (selectCommunication == "opc")
                     {
-                        await OpcClient.postInput("0"); //mandar dado opc para planta aqui também
+                        await OpcClient.postInput("0.0"); //mandar dado opc para planta aqui também
                     }
                 }
                 catch
