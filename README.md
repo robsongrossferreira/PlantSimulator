@@ -51,3 +51,23 @@ Nícolas Kamke Schimidt
 ## Novas Funcionalidades
 - Protocolo OPC UA (Planta - Servidor / Controlador - CLiente)
 - Protocolo Protocolo Modbus TCP (Planta - Cliente)
+
+## Novo Layout server
+![Novo Layout Server](https://github.com/robsongrossferreira/PlantSimulator/blob/main/assets/NovoLayoutServer.jpeg)
+
+## Novo Layout client
+![Novo Layout Client](https://github.com/robsongrossferreira/PlantSimulator/blob/main/assets/NovoLayoutClient.jpeg)
+
+## Fluxo De Dados - Opção 1
+![Modelo Conceitual](https://github.com/robsongrossferreira/PlantSimulator/blob/main/assets/FluxoDados1.jpeg)
+
+## Fluxo De Dados - Opção 2
+![Modelo Conceitual](https://github.com/robsongrossferreira/PlantSimulator/blob/main/assets/FluxoDados2.jpeg)
+
+# Autores Da Atualização (OPC UA + ModBus TCP)
+
+João Paulo Ferreira
+- 
+
+Robson Gross Ferreira
+- www.linkedin.com/in/robson-gross-ferreira-7b2926a0
