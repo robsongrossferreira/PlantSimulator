@@ -53,7 +53,7 @@ Nícolas Kamke Schimidt
 - Protocolo Protocolo Modbus TCP (Planta - Cliente)
 
 ## Novo Layout server
-![Novo Layout Server](https://github.com/robsongrossferreira/PlantSimulator/blob/main/assets/NovoLayoutServer.jpg)
+![Novo Layout Server](https://github.com/robsongrossferreira/PlantSimulator/assets/NovoLayoutServer.jpeg)
 
 ## Novo Layout client
 ![Novo Layout Client](https://github.com/robsongrossferreira/PlantSimulator/blob/main/assets/NovoLayoutClient.jpg)
