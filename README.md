@@ -44,3 +44,10 @@ Hugo Cesar Da Silva Freitas
 
 Nícolas Kamke Schimidt
 - www.linkedin.com/in/nschimidt
+
+
+# Primeira Atualização do Laboratório Simulado para Ensaios de Controle (LSEC)
+
+# Novas Funcionalidades
+- Protocolo OPC UA (Planta - Servidor / Controlador - CLiente)
+- Protocolo Protocolo Modbus TCP (Planta - Cliente)
