@@ -1,0 +1,261 @@
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\PlantSimulator.exe.config
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\PlantSimulator.exe.manifest
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\PlantSimulator.application
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\PlantSimulator.exe
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\PlantSimulator.pdb
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\System.Buffers.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\System.Memory.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\System.Net.Http.Json.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\System.Text.Json.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\System.ValueTuple.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\ZedGraph.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\System.Buffers.xml
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\System.Memory.xml
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\System.Net.Http.Json.xml
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\System.Text.Json.xml
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\System.ValueTuple.xml
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\ZedGraph.xml
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\obj\Debug\PlantSimulator_Client.csprojAssemblyReference.cache
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\obj\Debug\PlantSimulator.Communication.Rest.FormRest.resources
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\obj\Debug\PlantSimulator_Client.Form1.resources
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\obj\Debug\PlantSimulator.Properties.Resources.resources
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\obj\Debug\PlantSimulator_Client.csproj.GenerateResource.cache
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\obj\Debug\PlantSimulator_Client.csproj.CoreCompileInputs.cache
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\obj\Debug\PlantSimulator.exe.manifest
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\obj\Debug\PlantSimulator.application
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\obj\Debug\PlantSimulator_Client.csproj.CopyComplete
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\obj\Debug\PlantSimulator.exe
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator\PlantSimulator_Client\obj\Debug\PlantSimulator.pdb
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\PlantSimulator.exe.config
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\PlantSimulator.exe.manifest
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\PlantSimulator.application
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\PlantSimulator.exe
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\PlantSimulator.pdb
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\System.Buffers.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\System.Memory.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\System.Net.Http.Json.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\System.Text.Json.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\System.ValueTuple.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\ZedGraph.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\System.Buffers.xml
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\System.Memory.xml
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\System.Net.Http.Json.xml
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\System.Text.Json.xml
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\System.ValueTuple.xml
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\ZedGraph.xml
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\obj\Debug\PlantSimulator.Communication.Rest.FormRest.resources
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\obj\Debug\PlantSimulator_Client.Form1.resources
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\obj\Debug\PlantSimulator.Properties.Resources.resources
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\obj\Debug\PlantSimulator_Client.csproj.GenerateResource.cache
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\obj\Debug\PlantSimulator_Client.csproj.CoreCompileInputs.cache
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\obj\Debug\PlantSimulator.exe.manifest
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\obj\Debug\PlantSimulator.application
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\obj\Debug\PlantSimulator_Client.csproj.CopyComplete
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\obj\Debug\PlantSimulator.exe
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\obj\Debug\PlantSimulator.pdb
+C:\Users\Nicol\OneDrive\Área de Trabalho\TCC\VisualStudio\PlantSimulator2.0\PlantSimulator_Client\obj\Debug\PlantSimulator_Client.csprojAssemblyReference.cache
+C:\Users\robso\Documents\Visual Studio 2019\PlantSimulator-main\PlantSimulator_Client\obj\Debug\PlantSimulator.Communication.Rest.FormRest.resources
+C:\Users\robso\Documents\Visual Studio 2019\PlantSimulator-main\PlantSimulator_Client\obj\Debug\PlantSimulator_Client.Form1.resources
+C:\Users\robso\Documents\Visual Studio 2019\PlantSimulator-main\PlantSimulator_Client\obj\Debug\PlantSimulator.Properties.Resources.resources
+C:\Users\robso\Documents\Visual Studio 2019\PlantSimulator-main\PlantSimulator_Client\obj\Debug\PlantSimulator_Client.csproj.GenerateResource.cache
+C:\Users\robso\Documents\Visual Studio 2019\PlantSimulator-main\PlantSimulator_Client\obj\Debug\PlantSimulator_Client.csproj.CoreCompileInputs.cache
+C:\Users\robso\Documents\Visual Studio 2019\PlantSimulator-main\PlantSimulator_Client\obj\Debug\PlantSimulator.exe
+C:\Users\robso\Documents\Visual Studio 2019\PlantSimulator-main\PlantSimulator_Client\obj\Debug\PlantSimulator.pdb
+C:\Users\robso\Documents\Visual Studio 2019\PlantSimulator-main\PlantSimulator_Client\obj\Debug\PlantSimulator_Client.csproj.AssemblyReference.cache
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\PlantSimulator.exe.config
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\PlantSimulator.exe
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\PlantSimulator.pdb
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.AspNetCore.Connections.Abstractions.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.AspNetCore.Hosting.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.AspNetCore.Http.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.AspNetCore.Server.Kestrel.Core.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.AspNetCore.Server.Kestrel.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.AspNetCore.Server.Kestrel.Https.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.Configuration.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.Logging.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.ObjectPool.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Net.Http.Headers.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Newtonsoft.Json.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Opc.Ua.Bindings.Https.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Opc.Ua.Client.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Opc.Ua.Configuration.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Opc.Ua.Core.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Opc.Ua.Gds.Client.Common.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Opc.Ua.Gds.Server.Common.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Opc.Ua.Security.Certificates.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Opc.Ua.Server.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\System.Buffers.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\System.Collections.Immutable.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\System.Formats.Asn1.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\System.IO.Pipelines.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\System.Memory.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\System.Net.Http.Json.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\System.Reflection.Metadata.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\System.Security.Cryptography.Cng.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\System.Text.Json.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\System.ValueTuple.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\ZedGraph.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.AspNetCore.Connections.Abstractions.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.AspNetCore.Hosting.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.AspNetCore.Http.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.AspNetCore.Server.Kestrel.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.AspNetCore.Server.Kestrel.Core.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.AspNetCore.Server.Kestrel.Https.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.AspNetCore.Server.Kestrel.Transport.Abstractions.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.AspNetCore.Server.Kestrel.Transport.Sockets.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.Configuration.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.Configuration.Binder.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.Configuration.EnvironmentVariables.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.FileProviders.Physical.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.Logging.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.ObjectPool.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Microsoft.Net.Http.Headers.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Newtonsoft.Json.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Opc.Ua.Bindings.Https.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Opc.Ua.Client.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Opc.Ua.Configuration.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Opc.Ua.Core.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Opc.Ua.Gds.Client.Common.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Opc.Ua.Gds.Server.Common.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Opc.Ua.Security.Certificates.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\Opc.Ua.Server.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\System.Buffers.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\System.Collections.Immutable.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\System.Formats.Asn1.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\System.IO.Pipelines.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\System.Memory.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\System.Net.Http.Json.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\System.Reflection.Metadata.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\System.Text.Json.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\System.ValueTuple.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\ZedGraph.xml
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\de\ZedGraph.resources.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\es\ZedGraph.resources.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\fr\ZedGraph.resources.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\hu\ZedGraph.resources.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\it\ZedGraph.resources.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\ja\ZedGraph.resources.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\pt\ZedGraph.resources.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\ru\ZedGraph.resources.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\sk\ZedGraph.resources.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\sv\ZedGraph.resources.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\tr\ZedGraph.resources.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\zh-cn\ZedGraph.resources.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\bin\Debug\zh-tw\ZedGraph.resources.dll
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\obj\Debug\PlantSimulator_Client.csproj.AssemblyReference.cache
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\obj\Debug\PlantSimulator.Communication.OPC.FormOPC.resources
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\obj\Debug\PlantSimulator.Communication.Rest.FormRest.resources
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\obj\Debug\PlantSimulator_Client.Form1.resources
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\obj\Debug\PlantSimulator.Properties.Resources.resources
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\obj\Debug\PlantSimulator_Client.csproj.GenerateResource.cache
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\obj\Debug\PlantSimulator_Client.csproj.CoreCompileInputs.cache
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\obj\Debug\PlantSimulator_Client.csproj.CopyComplete
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\obj\Debug\PlantSimulator.exe
+C:\Users\robso\source\repos\PlantSimulator-main\PlantSimulator_Client\obj\Debug\PlantSimulator.pdb
