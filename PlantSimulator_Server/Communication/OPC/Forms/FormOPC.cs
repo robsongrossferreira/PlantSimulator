@@ -58,18 +58,18 @@ namespace PlantSimulator.Communication.OPC.Forms
         {
             try
             {
-                //HabilityModBus = true; // para testes, remover
+                HabilityModBus = true; // para testes, remover
                 if (HabilityModBus)
                 {
-                    IPModbus = txtIPModBus.Text.ToString(); // ao terminar os testes, descomentar
-                    PortModBus = int.Parse(txtPortaModBus.Text); // ao terminar os testes, descomentar
-                    HoldingResgisterInit = int.Parse(txtRegistroInicalHolding.Text); // ao terminar os testes, descomentar
-                    InputRegisterInit = int.Parse(txtRegistroInicialInput.Text); // ao terminar os testes, descomentar
+                    //IPModbus = txtIPModBus.Text.ToString(); // ao terminar os testes, descomentar
+                    //PortModBus = int.Parse(txtPortaModBus.Text); // ao terminar os testes, descomentar
+                    //HoldingResgisterInit = int.Parse(txtRegistroInicalHolding.Text); // ao terminar os testes, descomentar
+                    //InputRegisterInit = int.Parse(txtRegistroInicialInput.Text); // ao terminar os testes, descomentar
 
-                    //IPModbus = "192.168.25.10"; // para testes, remover
-                    //PortModBus = 502; // para testes, remover
-                    //HoldingResgisterInit = 0; // para testes, remover
-                    //InputRegisterInit = 0; // para testes, remover
+                    IPModbus = "192.168.25.10"; // para testes, remover
+                    PortModBus = 502; // para testes, remover
+                    HoldingResgisterInit = 0; // para testes, remover
+                    InputRegisterInit = 0; // para testes, remover
                 }
                 OPCServer.Start();
                 txtStatusConnectionOpc.Text = "SERVER ONLINE";

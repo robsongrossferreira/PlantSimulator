@@ -253,8 +253,8 @@ namespace PlantSimulator_Server
         {
             while (controlPlantLoop)
             {
-                //if (FormOPC.HabilityModBus == false)
-                //{
+                if (FormOPC.HabilityModBus == false)
+                {
                     var durationTicks = Math.Round(Sistema.discretizationTime * Stopwatch.Frequency);
                     var sw = Stopwatch.StartNew();
 
@@ -262,7 +262,7 @@ namespace PlantSimulator_Server
                     {
 
                     }
-                //}
+                }
                 PlantLoop();
             }
         }
