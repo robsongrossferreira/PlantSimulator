@@ -43,7 +43,7 @@ namespace PlantSimulatorServer
                 }
 
                 // carrega a configuração do aplicativo.
-                application.LoadApplicationConfiguration("C:/Users/robso/source/repos/PlantSimulator-main/PlantSimulator_Server/Communication/OPC/App_Start_OPC/PlantSimulator_Server.Config.xml", false).Wait();
+                application.LoadApplicationConfiguration("PlantSimulator_Server.Config.xml", false).Wait();
 
                 // verifica o certificado do aplicativo.
                 application.CheckApplicationInstanceCertificate(false, 0).Wait();

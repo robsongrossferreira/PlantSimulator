@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ApplicationConfiguration
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:ua="http://opcfoundation.org/UA/2008/02/Types.xsd"
+  xmlns="http://opcfoundation.org/UA/SDK/Configuration.xsd"
+>
+  <ApplicationName>PlantSimulator_Server</ApplicationName>
+  <ApplicationUri>urn:localhost:PlantSimulatorServer</ApplicationUri>
+  <ProductUri>http://opcfoundation.org/PlantSimulatorServer</ProductUri>
+  <ApplicationType>Server_0</ApplicationType>
+  
+  <SecurityConfiguration>
+
+    <!-- Onde o certificado da instância do aplicativo é armazenado (MachineDefault) -->
+    <ApplicationCertificate>
+      <StoreType>Directory</StoreType>
+      <StorePath>%CommonApplicationData%\OPC Foundation\CertificateStores\MachineDefault</StorePath>
+      <SubjectName>PlantSimulator_Server</SubjectName>
+    </ApplicationCertificate>
+
+    <!-- Onde o certificado do emissor está armazenado (autoridades de certificação) -->
+    <TrustedIssuerCertificates>
+      <StoreType>Directory</StoreType>
+      <StorePath>%CommonApplicationData%\OPC Foundation\CertificateStores\UA Certificate Authorities</StorePath>
+    </TrustedIssuerCertificates>
+
+    <!-- Onde a lista de confiança é armazenada (Aplicativos UA) -->
+    <TrustedPeerCertificates>
+      <StoreType>Directory</StoreType>
+      <StorePath>%CommonApplicationData%\OPC Foundation\CertificateStores\UA Applications</StorePath>
+    </TrustedPeerCertificates>
+
+    <!-- O diretório usado para armazenar certificados inválidos para revisão posterior pelo administrador. -->
+    <RejectedCertificateStore>
+      <StoreType>Directory</StoreType>
+      <StorePath>%CommonApplicationData%\OPC Foundation\CertificateStores\RejectedCertificates</StorePath>
+    </RejectedCertificateStore>
+
+    <!-- AVISO: A configuração a seguir (para aceitar automaticamente certificados não confiáveis) deve ser usada
+    SOMENTE para fins de depuração fácil e desativado para implantações de produção! -->
+    <AutoAcceptUntrustedCertificates>true</AutoAcceptUntrustedCertificates>
+  
+  </SecurityConfiguration>
+  
+  <TransportConfigurations></TransportConfigurations>
+  <TransportQuotas>
+    <OperationTimeout>600000</OperationTimeout>
+    <MaxStringLength>1048576</MaxStringLength>
+    <MaxByteStringLength>1048576</MaxByteStringLength>
+    <MaxArrayLength>65535</MaxArrayLength>
+    <MaxMessageSize>4194304</MaxMessageSize>
+    <MaxBufferSize>65535</MaxBufferSize>
+    <ChannelLifetime>300000</ChannelLifetime>
+    <SecurityTokenLifetime>3600000</SecurityTokenLifetime>
+  </TransportQuotas>
+  <ServerConfiguration>
+    <BaseAddresses>
+      <ua:String>opc.tcp://localhost:26543/PlantSimulatorServer</ua:String>
+     </BaseAddresses>
+    <SecurityPolicies>
+      <ServerSecurityPolicy>
+        <SecurityMode>None_1</SecurityMode>
+        <SecurityPolicyUri>http://opcfoundation.org/UA/SecurityPolicy#None</SecurityPolicyUri>
+        <SecurityLevel>0</SecurityLevel>
+      </ServerSecurityPolicy>
+      <ServerSecurityPolicy>
+        <SecurityMode>SignAndEncrypt_3</SecurityMode>
+        <SecurityPolicyUri>http://opcfoundation.org/UA/SecurityPolicy#Basic256</SecurityPolicyUri>
+        <SecurityLevel>5</SecurityLevel>
+      </ServerSecurityPolicy>
+      <ServerSecurityPolicy>
+        <SecurityMode>SignAndEncrypt_3</SecurityMode>
+        <SecurityPolicyUri>http://opcfoundation.org/UA/SecurityPolicy#Basic256Sha256</SecurityPolicyUri>
+        <SecurityLevel>6</SecurityLevel>
+      </ServerSecurityPolicy>
+    </SecurityPolicies>
+
+    <MinRequestThreadCount>5</MinRequestThreadCount>
+    <MaxRequestThreadCount>100</MaxRequestThreadCount>
+    <MaxQueuedRequestCount>2000</MaxQueuedRequestCount>
+    
+    <!-- O SDK espera que o servidor dê suporte ao mesmo conjunto de tokens de usuário para cada endpoint. -->
+    <UserTokenPolicies>
+      <!-- Permite usuários anônimos -->
+      <ua:UserTokenPolicy>
+        <ua:TokenType>Anonymous_0</ua:TokenType>
+        <ua:SecurityPolicyUri>http://opcfoundation.org/UA/SecurityPolicy#None</ua:SecurityPolicyUri>
+      </ua:UserTokenPolicy>
+
+      <!-- Permite nome de usuário/senha -->
+      <ua:UserTokenPolicy>
+        <ua:TokenType>UserName_1</ua:TokenType>
+        <!-- as senhas devem ser criptografadas - isso especifica qual algoritmo usar -->
+        <ua:SecurityPolicyUri>http://opcfoundation.org/UA/SecurityPolicy#Basic256</ua:SecurityPolicyUri>
+      </ua:UserTokenPolicy>
+
+      <!-- Permite certificados de usuário -->
+      <ua:UserTokenPolicy>
+        <ua:TokenType>Certificate_2</ua:TokenType>
+        <!-- a posse do certificado deve ser comprovada com uma assinatura digital - isso especifica qual algoritmo usar -->
+        <ua:SecurityPolicyUri>http://opcfoundation.org/UA/SecurityPolicy#Basic256</ua:SecurityPolicyUri>
+      </ua:UserTokenPolicy>
+    </UserTokenPolicies>
+    <DiagnosticsEnabled>true</DiagnosticsEnabled>
+    <MaxSessionCount>100</MaxSessionCount>
+    <MinSessionTimeout>10000</MinSessionTimeout>
+    <MaxSessionTimeout>3600000</MaxSessionTimeout>
+    <MaxBrowseContinuationPoints>10</MaxBrowseContinuationPoints>
+    <MaxQueryContinuationPoints>10</MaxQueryContinuationPoints>
+    <MaxHistoryContinuationPoints>100</MaxHistoryContinuationPoints>
+    <MaxRequestAge>600000</MaxRequestAge>
+    <MinPublishingInterval>100</MinPublishingInterval>
+    <MaxPublishingInterval>3600000</MaxPublishingInterval>
+    <PublishingResolution>50</PublishingResolution>
+    <MaxSubscriptionLifetime>3600000</MaxSubscriptionLifetime>
+    <MaxMessageQueueSize>100</MaxMessageQueueSize>
+    <MaxNotificationQueueSize>100</MaxNotificationQueueSize>
+    <MaxNotificationsPerPublish>1000</MaxNotificationsPerPublish>
+    <MinMetadataSamplingInterval>1000</MinMetadataSamplingInterval>
+    <AvailableSamplingRates>
+      <SamplingRateGroup>
+        <Start>5</Start>
+        <Increment>5</Increment>
+        <Count>20</Count>
+      </SamplingRateGroup>
+      <SamplingRateGroup>
+        <Start>100</Start>
+        <Increment>100</Increment>
+        <Count>4</Count>
+      </SamplingRateGroup>
+      <SamplingRateGroup>
+        <Start>500</Start>
+        <Increment>250</Increment>
+        <Count>2</Count>
+      </SamplingRateGroup>
+      <SamplingRateGroup>
+        <Start>1000</Start>
+        <Increment>500</Increment>
+        <Count>20</Count>
+      </SamplingRateGroup>
+    </AvailableSamplingRates>
+    <MaxRegistrationInterval>0</MaxRegistrationInterval>
+    <NodeManagerSaveFile>PlantSimulator_Server.nodes.xml</NodeManagerSaveFile>
+  </ServerConfiguration>
+
+  <TraceConfiguration>
+    <OutputFilePath>PlantSimulator_Server.log.txt</OutputFilePath>
+    <DeleteOnLoad>true</DeleteOnLoad>
+    <!-- Mostrar apenas erros -->
+    <!-- <TraceMasks>1</TraceMasks> -->
+    <!-- Mostrar apenas segurança e erros -->
+    <!-- <TraceMasks>513</TraceMasks> -->
+    <!-- Mostrar apenas segurança, erros e rastreamento -->
+    <!-- <TraceMasks>515</TraceMasks> -->
+    <!-- Mostrar apenas segurança, chamadas COM, erros e rastreamento -->
+    <!-- <TraceMasks>771</TraceMasks> -->
+    <!-- Mostrar apenas segurança, chamadas de serviço, erros e rastreamento -->
+    <!-- <TraceMasks>523</TraceMasks> -->
+    <!-- Mostrar apenas segurança, ServiceResultExceptions, erros e rastreamento -->
+    <!-- <TraceMasks>519</TraceMasks> -->
+  </TraceConfiguration>
+  
+</ApplicationConfiguration>
