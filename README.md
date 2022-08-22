@@ -52,6 +52,11 @@ Nícolas Kamke Schimidt
 - Protocolo OPC UA (Planta - Servidor / Controlador - Cliente)
 - Protocolo Protocolo Modbus TCP (Planta - Cliente)
 
+# Como executar a atualização OPC-UA do projeto
+
+## Copiar os certificados do Servidor OPC-UA para as pastas apontas na imagem abaixo em seu computador
+![Importação de Certificado](https://github.com/robsongrossferreira/PlantSimulator/blob/master/assets/Certificados_OPC-UA.jpg)
+
 ## Novo Layout server
 ![Novo Layout Server](https://github.com/robsongrossferreira/PlantSimulator/blob/master/assets/NovoLayoutServer.jpg)
 
