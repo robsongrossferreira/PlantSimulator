@@ -41,7 +41,7 @@ namespace PlantSimulatorServer
         {
             NodeStateCollection predefinedNodes = new NodeStateCollection();
             predefinedNodes.LoadFromBinaryResource(context,
-                 "C:/Users/robso/source/repos/PlantSimulator-main/PlantSimulator_Server/Communication/OPC/App_Start_OPC/PlantSimulatorServer.PredefinedNodes.uanodes",
+                 "PlantSimulatorServer.PredefinedNodes.uanodes",
                 typeof(PlantSimulatorNodeManager).GetTypeInfo().Assembly,
                 true);
 
